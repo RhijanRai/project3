@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Poppins:wght@500&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top
+{
+    padding-top: 8px;
+    background-color: #111111;
+    font-size: 15px;
+    line-height: 40px;
+    color: #FF661F;
+
+}
+.top li
+{
+    display: inline;
+    padding-right: 5px;
+}
+#social i
+{
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #FF661F;
+    padding: 8px;
+}
+#social i:hover
+{
+    color: #fff;
+    background-color: #FF661F;
+    transition: 0.7s ease;
+    transform: translateY(-5px);
+}
+#right button
+{
+    background-color: transparent;
+    color: #fff;
+}
+#right .dropdown-menu
+{
+    background-color: #fff;
+    height: 250px;   
+}
+#right li .login
+{
+    text-decoration: none;
+    color: #fff;
+}
+/*NavBar*/
+#navbarSupportedContent a
+{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 30px 12px;
+}
+#navbarSupportedContent a:hover
+{
+    color: #FF661F;
+    
+}
+.d-flex input
+{
+    border: 1px solid #FF661F;
+}
+.d-flex button
+{
+    border: none;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #FF661F;
+    color: #fff;
+}
+#slider 
+{
+    justify-content: center;
+    width: 500px;
+}
+#slider img
+{
+    width:400px;
+}
+
+/*Slider*/
+.text h3
+{
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FF661F ;
+}
+.content h5
+{
+    color: #FF661F;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+.content p
+{
+    font-size: 19px;
+    font-weight: 500;
+}
+.content h4
+{
+    font-size: 16px;
+    color: #656565;
+
+}
+.content .col-lg-4 img
+{
+    border-radius: 3px;
+    padding: 5px;
+}
+.content .col-lg-4:hover 
+{ 
+    color: #FF661F;
+    border: 1px solid #FF661F;
+    border-radius: 3px;
+    background: #F8F9FA;
+    transition: 1s ease;
+}
+
+/*Footer*/
+footer
+{
+    background:#000;
+    color: #fff;
+}
+footer span
+{
+    font-size: 12px;
+}
+#socials
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 30px;
+    padding-right: 10px;
+    padding-left: 0;
+} 
+#socials li
+{
+    padding:10px;
+}
+#socials a
+{
+    text-decoration: none;
+    color: #fff;
+}
+#socials i:hover
+{
+    color: #FF661F;
+    transition: 0.8s ease;
+}
+footer .post-content
+{
+    padding: 5px;
+}
+.single-footer-widget .post-content h4
+{
+    font-size: 15px;
+}
+.single-footer-widget .post-content .post-image a img
+{
+    margin-bottom: 0;
+    max-width: 80px;
+}
+.single-footer-widget .post-content h4 a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+footer .useful-links-list 
+{
+    list-style: none;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+footer .useful-links-list a
+{
+    text-decoration: none;
+    color: #fff;
+}
+footer .useful-links-list li
+{
+    padding:8px;
+}
+.single-footer-widget .widget-subscribe-content p
+{
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+footer .useful-links-list a:hover
+{
+    color: #FF661F;
+    transition: 0.8s ease;
+}
+.single-footer-widget .widget-subscribe-content .newsletter-form .input-newsletter
+ {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    height: 55px;
+    padding-left: 15px;
+    border-radius: 0;
+    outline: 0;
+    color: #09101f;
+}
+.single-footer-widget .widget-subscribe-content .newsletter-form button 
+{
+    background: #ff661f;
+    color: #fff;
+    border: none;
+    height: 55px;
+    padding: 0 60px;
+    line-height: 55px;
+    font-weight: 500;
+    border-radius: 0;;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+.single-footer-widget .widget-subscribe-content .newsletter-form button:hover
+{
+    background: #DC472E;
+    transition: 0.8s ease;
+}
+.copyright-area 
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #111;
+    border-top: 1px solid #292929;
+    text-align: center;
+    cursor:pointer;
+}
+.copyright-area .copyright-area-content p:hover
+{
+    color: #FF661F;
+    transition:0.8s ease;
+}
+.copyright-area .copyright-area-content p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
